@@ -1,0 +1,65 @@
+body {
+    background-color: #2f2f2f;
+}
+
+/* HEADER */
+.menu {
+    background-color: #3a3a3a;
+    height: 90px;
+}
+
+.logo {
+    background-color: orange;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.botonGris {
+    background-color: #bfbfbf;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.botonNaranja {
+    background-color: orange;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+/* CONTENIDO */
+.bloquePrincipal {
+    background-color: orange;
+    height: 180px;
+}
+
+.cuadroPequeno {
+    background-color: goldenrod;
+    width: 200px;
+    height: 90px;
+}
+
+.linea {
+    background-color: #7c7c7c;
+    height: 12px;
+    width: 100%;
+}
+
+.lineaCorta {
+    background-color: #bfbfbf;
+    height: 40px;
+    width: 60%;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background-color: #444444;
+    min-height: 500px;
+}
+.zoom-activo {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}

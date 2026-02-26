@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+.justify-content-end {
+    background-color: #424242;
+    height: 120px;
+}
+
+.logo {
+    background-color: orange;
+    height: 60px;
+    width: 60px;
+    margin: 30px;
+}
+
+.botonGris {
+    background-color: rgb(190, 190, 190);
+    height: 50px;
+    width: 280px;
+    margin: 20px;
+}
+
+.botonNaranja {
+    background-color: rgb(190, 190, 190);
+    height: 50px;
+    width: 280px;
+    margin: 20px;
+}
+
+.botonGris1 {
+    background-color: rgb(99, 99, 99);
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+}
+
+.botonGris2 {
+    background-color: rgb(99, 99, 99);
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+}
+
+.botongrandesito {
+    background-color: rgb(122, 122, 122);
+    height: 550px;
+    width: 1800px;
+    margin: 10px;
+}
+
+.botonesInteriores {
+    background-color: rgb(252, 252, 252);
+    height: 50px;
+    width: 1000px;
+    margin: 250px 0px 0px 350px;
+}
+
+.botonesInterioresallado {
+    background-color: rgb(255, 174, 0);
+    height: 50px;
+    width: 60px;
+    margin: 250px 0px 0px 0px;
+}
+
+.cuadradodeimagen {
+    background-color: rgb(255, 196, 0);
+    height: 500px;
+    width: 450px;
+    margin: 40px 250px 100px 50px;
+}
+
+.cuadradodeimagen2 {
+    background-color: rgb(131, 131, 131);
+    height: 50px;
+    width: 800px;
+    margin: 40px 250px 10px 50px;
+}
+
+.lineasdetexto1 {
+    background-color: rgb(73, 73, 73);
+    height: 20px;
+    width: 800px;
+    margin: 40px 250px 10px 50px;
+}
+
+.lineasdetexto2 {
+    background-color: rgb(73, 73, 73);
+    height: 20px;
+    width: 800px;
+    margin: 40px 250px 10px 50px;
+}
+
+.lineasdetexto3 {
+    background-color: rgb(73, 73, 73);
+    height: 20px;
+    width: 800px;
+    margin: 40px 250px 10px 50px;
+}
+
+.lineasdetexto4 {
+    background-color: rgb(73, 73, 73);
+    height: 20px;
+    width: 600px;
+    margin: 40px 250px 10px 50px;
+}
+
+.lineasdetexto5 {
+    background-color: rgb(73, 73, 73);
+    height: 20px;
+    width: 600px;
+    margin: 180px 250px 10px 50px;
+}
+
+.cuadradodeimagen3 {
+    background-color: rgb(43, 43, 43);
+    height: 500px;
+    width: 450px;
+    margin: 40px 250px 100px 50px;
+}
+
+.cuadradodeimagen1 {
+    background-color: rgb(255, 196, 0);
+    height: 500px;
+    width: 450px;
+    margin: 40px 250px 100px 50px;
+}
+
+.cuadradodeimagen3 {
+    background-color: rgb(255, 196, 0);
+    height: 500px;
+    width: 450px;
+    margin: 40px 250px 100px 50px;
+}
+
+.cuadradodeimagenpequeña1 {
+    background-color: rgb(95, 95, 95);
+    height: 100px;
+    width: 100px;
+    margin: 40px 250px 100px 50px;
+}
+
+.lineadetexto {
+    background-color: rgb(73, 73, 73);
+    height: 20px;
+    width: 300px;
+    margin: 40px 250px 10px 120px;
+}
+
+.lineadetextopequeña1 {
+    background-color: rgb(58, 58, 58);
+    height: 10px;
+    width: 300px;
+    margin: 0px 250px 10px 120px;
+}
+
+.lineadetextopequeña2 {
+    background-color: rgb(58, 58, 58);
+    height: 10px;
+    width: 200px;
+    margin: 0px 250px 10px 120px;
+}

@@ -1,0 +1,145 @@
+﻿body {
+    background-color: #292c30;
+}
+
+.bg-body-tertiary {
+    background-color: #f8f9fa !important;
+}
+
+
+.menu {
+    background-color: #1a161b;
+    height: 100px;
+    text-align: center;
+
+}
+
+.cuadro {
+    background-color: rgb(157, 106, 216);
+    height: 40px;
+    width: 40px;
+    margin: 30px;
+
+}
+
+.botonGris1 {
+    background-color: rgb(130, 80, 163);
+    height: 40px;
+    width: 300px;
+    margin: 30px;
+
+}
+
+.botonGris2 {
+    background-color: rgb(130, 80, 163);
+    height: 40px;
+    width: 300px;
+    margin: 30px;
+
+}
+
+.botonMorado {
+    background-color: rgb(163, 112, 211);
+    height: 40px;
+    width: 40px;
+    margin: 30px;
+
+}
+
+.alinear1 {
+    display: flex;
+    justify-content: end;
+}
+
+.rebote {
+    animation: rebote 0.4s;
+}
+
+@keyframes rebote {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* Altura fija del carousel */
+#theCarousel {
+    max-width: 1000px;
+    /* ancho mÃ¡ximo */
+    margin: auto;
+    /* centrar */
+}
+
+#theCarousel .carousel-item img {
+    height: 500px;
+    /* altura que tÃº quieras */
+    object-fit: cover;
+    /* ajusta la imagen sin deformarla */
+}
+
+.botonGris1,
+.botonGris2 {
+    background-color: #9a6daf;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.botonMorado {
+    background-color: #6f42c1;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #212529;
+    padding: 20px 0;
+}
+
+.foot-title {
+    height: 15px;
+    background-color: #996eca;
+    margin-bottom: 10px;
+}
+
+.foot-line {
+    height: 10px;
+    background-color: #6c757d;
+    margin-bottom: 8px;
+}
+
+.contenedor-cuadros {
+    display: flex;
+    gap: 35px;
+    /* separaciÃ³n entre cuadros */
+    justify-content: center;
+    /* centrarlos */
+    padding: 20px;
+    background-color: transparent;
+    /* fondo oscuro como la imagen */
+}
+
+.cuadrito {
+    width: 100px;
+    height: 100px;
+    background-color: #9870da;
+    /* gris */
+    border-radius: 5px;
+    /* esquinas suaves (opcional) */
+}
+
+.foot-line-2 {
+    height: 100px;
+    background-color: transparent
+}
+.nav-link { color: #000 !important; font-weight: 500; }
+.navbar-brand { color: #000 !important; font-weight: bold; }

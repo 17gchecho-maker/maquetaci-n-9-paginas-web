@@ -1,0 +1,162 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* ========================= */
+/* GRID SYSTEM */
+/* ========================= */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+[class*="col-"],
+.col {
+    padding: 10px;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
+
+/* Small ≥576px */
+@media (min-width: 576px) {
+    .col-sm-4 {
+        flex: 0 0 33.33%;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 50%;
+    }
+
+    .col-sm-12 {
+        flex: 0 0 100%;
+    }
+}
+
+/* Medium ≥768px */
+@media (min-width: 768px) {
+    .col-m-4 {
+        flex: 0 0 33.33%;
+    }
+
+    .col-m-6 {
+        flex: 0 0 50%;
+    }
+
+    .col-m-8 {
+        flex: 0 0 66.66%;
+    }
+
+    .col-m-12 {
+        flex: 0 0 100%;
+    }
+}
+
+/* Large ≥992px */
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 50%;
+    }
+
+    .col-lg-12 {
+        flex: 0 0 100%;
+    }
+}
+
+/* XL ≥1200px */
+@media (min-width: 1200px) {
+    .col-xl-4 {
+        flex: 0 0 33.33%;
+    }
+
+    .col-xl-6 {
+        flex: 0 0 50%;
+    }
+}
+
+/* XXL ≥1400px */
+@media (min-width: 1400px) {
+    .col-xxl-3 {
+        flex: 0 0 25%;
+    }
+
+    .col-xxl-6 {
+        flex: 0 0 50%;
+    }
+}
+
+/* ========================= */
+/* COMPONENTES VISUALES */
+/* ========================= */
+
+.topbar {
+    background: #1a1a1a;
+    padding: 15px;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    background: red;
+}
+
+.icons div {
+    height: 20px;
+    background: gray;
+    margin-bottom: 5px;
+}
+
+.search .btn {
+    height: 30px;
+    background: gray;
+}
+
+.main {
+    padding: 20px;
+}
+
+.header .red {
+    height: 150px;
+    background: red;
+}
+
+.hero {
+    height: 250px;
+    background: #333;
+    margin: 20px 0;
+}
+
+.line {
+    height: 15px;
+    background: #444;
+    margin-bottom: 10px;
+}
+
+.w1 {
+    width: 80%;
+}
+
+.w2 {
+    width: 60%;
+}
+
+.box {
+    height: 80px;
+    background: #555;
+}
