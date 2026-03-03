@@ -1,118 +1,120 @@
 ﻿<!doctype html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maquetación Prototipos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index7.css">
 </head>
-
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="bg-dark-slate text-light">
+    <nav class="navbar navbar-expand-lg border-bottom border-secondary custom-navbar" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Maquetación Prototipos</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand text-cyan fw-bold" href="#">Maquetación Prototipos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index1.html">Harold & Angela</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index2.html">Kevin & Nicoll</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index3.html">Sara & Dahiana</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index4.html">Alejandra & Daniel</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index5.html">Mariana & Nicoll</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index6.html">Ivan & Eduardo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index7.html">Duvan & Yojan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index8.html">Sofia & Gabriela</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index9.html">Stefania & Andrea</a>
-                    </li>
-
+                    <li class="nav-item"><a class="nav-link" href="index.html">Harold & Angela</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index2.html">Kevin & Nicoll</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index3.html">Sara & Dahiana</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index4.html">Alejandra & Daniel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index5.html">Mariana & Nicoll</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index6.html">Ivan & Eduardo</a></li>
+                    <li class="nav-item"><a class="nav-link active text-cyan" aria-current="page" href="index7.html">Duvan & Yojan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index8.html">Sofia & Gabriela</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index9.html">Stefania & Andrea</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="row d-flex justify-content-end align-items-center">
-            <div class="col-3 botonGris2">Boton</div>
-            <div class="col-3 botonGris1">Boton</div>
-            <div class="col-3 botonGris">Boton</div>
-            <div class="col-3 botonNaranja">Boton</div>
-            <div class="col-3 logo">Logo</div>
-        </div>
+    
+    <!-- HEADER CONTROLS -->
+    <div class="header-section py-3 px-4 d-flex justify-content-end align-items-center gap-3 flex-wrap mb-4 shadow-sm">
+        <div class="botonGris text-white fw-semibold">Boton</div>
+        <div class="botonGris text-white fw-semibold">Boton</div>
+        <div class="botonGris text-white fw-semibold">Boton</div>
+        <div class="botonCyan text-dark fw-bold">Boton</div>
+        <div class="logo-box shadow">Logo</div>
     </div>
 
-
-    <div class="container-fluid">
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="row botongrandesito">
-                <div class="col-3 botonesInteriores">video gris</div>
-                <div class="col-3 botonesInterioresallado">video naranja</div>
+    <!-- MAIN VIDEO SECTION -->
+    <div class="container-fluid mb-5 px-4">
+        <div class="botongrandesito p-4 d-flex justify-content-start align-items-end mx-auto shadow-lg position-relative overflow-hidden">
+            <div class="video-overlay"></div>
+            <div class="d-flex w-100 gap-3 justify-content-center flex-wrap position-relative z-1">
+                <div class="botonesInteriores w-75 flex-grow-1 text-light px-3 py-2 fw-bold shadow-sm">video gris</div>
+                <div class="botonesInterioresallado text-dark flex-shrink-0 px-3 py-2 text-center fw-bold shadow-sm">video cyan</div>
             </div>
         </div>
     </div>
 
+    <!-- BOTTOM CONTENT -->
+    <div class="container-fluid px-4 pb-5">
+        <div class="row g-4 justify-content-center">
+            
+            <!-- Left image -->
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="cuadradodeimagen d-flex align-items-center justify-content-center text-dark fs-1 w-100 mx-auto shadow-sm">1</div>
+            </div>
+            
+            <!-- Center listing -->
+            <div class="col-12 col-md-8 col-lg-5">
+                <div class="cuadradodeimagen2 d-flex align-items-center px-3 mb-4 w-100 mx-auto text-light fs-4 shadow-sm">2</div>
+                <div class="lineasdetexto mb-3 w-100 mx-auto"></div>
+                <div class="lineasdetexto mb-3 w-100 mx-auto"></div>
+                <div class="lineasdetexto mb-3 w-100 mx-auto"></div>
+                <div class="lineasdetexto mb-3 w-75 me-auto"></div>
+                <div class="lineasdetexto mt-5 mb-3 w-75 me-auto"></div>
+            </div>
+            
+            <!-- Right side column -->
+            <div class="col-12 col-lg-4">
+                <div class="cuadradodeimagen3 p-4 w-100 mx-auto shadow-sm">
+                    
+                    <!-- Item 1 -->
+                    <div class="row align-items-center mb-4 pb-3 border-bottom border-slate">
+                        <div class="col-auto">
+                            <div class="cuadradodeimagenpequena1 shadow-sm"></div>
+                        </div>
+                        <div class="col">
+                            <div class="lineadetexto mb-2 w-100"></div>
+                            <div class="lineadetextopequena1 mb-2 w-100"></div>
+                            <div class="lineadetextopequena2 w-75"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 2 -->
+                    <div class="row align-items-center mb-4 pb-3 border-bottom border-slate">
+                        <div class="col-auto">
+                            <div class="cuadradodeimagenpequena1 shadow-sm"></div>
+                        </div>
+                        <div class="col">
+                            <div class="lineadetexto mb-2 w-100"></div>
+                            <div class="lineadetextopequena1 mb-2 w-100"></div>
+                            <div class="lineadetextopequena2 w-75"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 3 -->
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <div class="cuadradodeimagenpequena1 shadow-sm"></div>
+                        </div>
+                        <div class="col">
+                            <div class="lineadetexto mb-2 w-100"></div>
+                            <div class="lineadetextopequena1 mb-2 w-100"></div>
+                            <div class="lineadetextopequena2 w-75"></div>
+                        </div>
+                    </div>
 
-    <div class="row">
-        <div class="col-3">
-            <div class="cuadradodeimagen">1</div>
-        </div>
-        <div class="col-5">
-            <div class="cuadradodeimagen2">2</div>
-            <div class="lineasdetexto1">1</div>
-            <div class="lineasdetexto2">2</div>
-            <div class="lineasdetexto3">3</div>
-            <div class="lineasdetexto4">4</div>
-            <div class="lineasdetexto5">5</div>
-        </div>
-        <div class="col-4">
-            <div class="cuadradodeimagen3">
-                <div class="col-12">
-                    ```html
-                    <div class="cuadradodeimagenpequeÃ±a1">
-                        <div class="lineadetexto justify-content-end">4</div>
-                        <div class="lineadetextopequeÃ±a1 justify-content-end">4</div>
-                        <div class="lineadetextopequeÃ±a2 justify-content-end">4</div>
-                    </div>
-                    <div class="cuadradodeimagenpequeÃ±a1">
-                        <div class="lineadetexto justify-content-end">4</div>
-                        <div class="lineadetextopequeÃ±a1 justify-content-end">4</div>
-                        <div class="lineadetextopequeÃ±a2 justify-content-end">4</div>
-                    </div>
-                    <div class="cuadradodeimagenpequeÃ±a1">
-                        <div class="lineadetexto justify-content-end">4</div>
-                        <div class="lineadetextopequeÃ±a1 justify-content-end">4</div>
-                        <div class="lineadetextopequeÃ±a2 justify-content-end">4</div>
-                    </div>
                 </div>
             </div>
+
         </div>
     </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

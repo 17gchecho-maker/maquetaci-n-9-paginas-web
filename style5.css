@@ -72,3 +72,14 @@
         height: 140px;
     }
 }
+@media screen and (max-width: 992px) {
+    * { max-width: 100% !important; }
+    body { overflow-x: hidden; }
+    div, section, article, header, nav, footer { margin-left: auto !important; margin-right: auto !important; }
+    .container, .container-fluid, .row, .col-12, .col-sm-6, .col-md-8, .col-lg-8, .col-xl-6, .col-xxl-6, .col-sm-12, .col-md-4, .col-lg-4 { margin-left: 0 !important; margin-right: 0 !important; max-width: 100% !important; }
+    .botonesInteriores, .botonesInterioresallado, .cuadradodeimagen, .cuadradodeimagen2, .lineasdetexto1, .lineasdetexto2, .lineasdetexto3, .lineasdetexto4, .lineasdetexto5, .cuadradodeimagen1, .cuadradodeimagen3, .lineadetexto, .lineadetextopequena1, .lineadetextopequena2, .botongrandesito { margin-left: auto !important; margin-right: auto !important; margin-top: 15px !important; margin-bottom: 15px !important; }
+    .menu, .navbar { height: auto !important; padding-left: 10px !important; padding-right: 10px !important; }
+    .sidebar, .bloquePrincipal, .cuerpo, .contenido-principal { min-width: 100% !important; width: 100% !important; padding: 10px !important; margin: 10px 0 !important; }
+    .logo { margin-left: auto !important; margin-right: auto !important; }
+}
+
